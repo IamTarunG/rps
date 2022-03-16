@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./rps.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="btns">
+        <div class="error"></div>
+        <div class="computerP" style="font-weight: bold"></div>
+        <div class="uscore" style="font-weight: bold"></div>
+        <div class="cscore" style="font-weight: bold"></div>
+        <button id="play" onclick="generate();playUser()">Play</button>
+        <br />
+        <label for="userInp" id="user">User Input</label>
+        <input type="text" id="userInp" />
+        <br />
+        <button id="exit" onclick="exit()">Exit</button>
+        <div
+          class="exitDisplay"
+          style="font-weight: bold; font-size: 20px"
+        ></div>
+      </div>
+    </div>
+    <!-- <button id="generateRandom">Continue</button> -->
+    <script src="./random.js"></script>
+  </body>
+</html>

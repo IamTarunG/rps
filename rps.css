@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://nypost.com/wp-content/uploads/sites/2/2014/06/rock-paper.jpg?quality=80&strip=all");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+#container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 15%;
+}
+
+#play {
+  border-radius: 45%;
+  font-size: large;
+  background-color: #019267;
+  color: white;
+}
+#exit {
+  border-radius: 45%;
+  font-size: large;
+  background-color: #ff1818;
+  color: white;
+}
+
+#user {
+  font-size: 2rem;
+  font-weight: bold;
+}
